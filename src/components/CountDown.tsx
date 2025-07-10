@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from "react";
 import Countdown from "react-countdown";
 
-const endingDate = new Date("2025-07-11");
+const endingDate = new Date("2025-08-11");
 
 const CountDown = () => {
     const [mounted, setMounted] = useState(false);
