@@ -31,7 +31,7 @@ export default function Navbar() {
             <span>+91 1234567890</span>
           </div>
           {!user ? (
-            <Link href="/">Login</Link>
+            <Link href="/login">Login</Link>
           ) : (
             <Link href="/menu">Orders</Link>
           )}
