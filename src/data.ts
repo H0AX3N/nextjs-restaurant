@@ -358,36 +358,40 @@ export const singleProduct: Product = {
 
 type Menu = {
     id: number;
-    slug: string;
+    item: string;
     title: string;
     desc?: string;
     img?: string;
     color: string;
+    btnBg: string
 }[];
 
 export const menu: Menu = [
     {
         id: 1,
-        slug: "pastas",
+        item: "pastas",
         title: "Italian Pastas",
         desc: "Savor the taste of perfection with our exquisite Italian handmade pasta menu.",
         img: "/temporary/m1.png",
         color: "white",
+        btnBg: "bg-purple-300"
     },
     {
         id: 2,
-        slug: "burgers",
+        item: "burgers",
         title: "Juicy Burgers",
         desc: "Burger Bliss: Juicy patties, bold flavors, and gourmet toppings galore.",
         img: "/temporary/m2.png",
         color: "black",
+        btnBg: "bg-red-400"
     },
     {
         id: 3,
-        slug: "pizzas",
+        item: "pizzas",
         title: "Cheesy Pizzas",
         desc: "Pizza Paradise: Irresistible slices, mouthwatering toppings, and cheesy perfection.",
         img: "/temporary/m3.png",
         color: "white",
+        btnBg: "bg-orange-300"
     },
 ];
